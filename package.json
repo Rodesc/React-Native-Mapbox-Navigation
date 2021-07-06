@@ -9,8 +9,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emin93/react-native-mapbox-navigation.git",
-    "baseUrl": "https://github.com/emin93/react-native-mapbox-navigation"
+    "url": "git+https://github.com/Developmenteam30/React-Native-Mapbox-Navigation.git",
+    "baseUrl": "https://github.com/Developmenteam30/React-Native-Mapbox-Navigation"
   },
   "keywords": [
     "react-native",
@@ -25,9 +25,9 @@
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/emin93/react-native-mapbox-navigation/issues"
+    "url": "https://github.com/Developmenteam30/React-Native-Mapbox-Navigation/issues"
   },
-  "homepage": "https://github.com/emin93/react-native-mapbox-navigation#readme",
+  "homepage": "https://github.com/Developmenteam30/React-Native-Mapbox-Navigation#readme",
   "peerDependencies": {
     "react": "^16.8.1",
     "react-native": ">=0.60.0-rc.0 <1.0.x"
