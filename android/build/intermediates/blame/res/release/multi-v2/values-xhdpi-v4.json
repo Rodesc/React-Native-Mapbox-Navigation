@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/apple/curve/kidault_driver/node_modules/react-native-mapbox-navigation/android/build/intermediates/res/merged/release/values-xhdpi-v4/values-xhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/3c9f3859d6277846f6b8498db4e17819/res/values-xhdpi-v4/values-xhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,110",
+                        "endColumns": "54,47",
+                        "endOffsets": "105,153"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/apple/curve/kidault_driver/node_modules/react-native-mapbox-navigation/android/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-xhdpi-v4/values-xhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/3c9f3859d6277846f6b8498db4e17819/res/values-xhdpi-v4/values-xhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,110",
+                        "endColumns": "54,47",
+                        "endOffsets": "105,153"
+                    }
+                }
+            ]
+        }
+    ]
+}

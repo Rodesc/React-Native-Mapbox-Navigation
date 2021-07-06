@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/apple/curve/kidault_driver/node_modules/react-native-mapbox-navigation/android/build/intermediates/res/merged/release/layout-v21/feedback_viewholder_layout.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/3c9f3859d6277846f6b8498db4e17819/res/layout-v21/feedback_viewholder_layout.xml"
+    },
+    {
+        "merged": "/Users/apple/curve/kidault_driver/node_modules/react-native-mapbox-navigation/android/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/97428e4c7143d8e04fcb03b411aaaab6/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/apple/curve/kidault_driver/node_modules/react-native-mapbox-navigation/android/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/97428e4c7143d8e04fcb03b411aaaab6/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/apple/curve/kidault_driver/node_modules/react-native-mapbox-navigation/android/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/97428e4c7143d8e04fcb03b411aaaab6/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/apple/curve/kidault_driver/node_modules/react-native-mapbox-navigation/android/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/97428e4c7143d8e04fcb03b411aaaab6/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

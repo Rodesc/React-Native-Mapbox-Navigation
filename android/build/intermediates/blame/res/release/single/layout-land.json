@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "/Users/apple/curve/kidault_driver/node_modules/react-native-mapbox-navigation/android/build/intermediates/res/merged/release/layout-land/feedback_bottom_sheet_layout.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/3c9f3859d6277846f6b8498db4e17819/res/layout-land/feedback_bottom_sheet_layout.xml"
+    },
+    {
+        "merged": "/Users/apple/curve/kidault_driver/node_modules/react-native-mapbox-navigation/android/build/intermediates/res/merged/release/layout-land/summary_peek_content_layout.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/3c9f3859d6277846f6b8498db4e17819/res/layout-land/summary_peek_content_layout.xml"
+    },
+    {
+        "merged": "/Users/apple/curve/kidault_driver/node_modules/react-native-mapbox-navigation/android/build/intermediates/res/merged/release/layout-land/instruction_layout_alt.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/3c9f3859d6277846f6b8498db4e17819/res/layout-land/instruction_layout_alt.xml"
+    },
+    {
+        "merged": "/Users/apple/curve/kidault_driver/node_modules/react-native-mapbox-navigation/android/build/intermediates/res/merged/release/layout-land/summary_peek_layout.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/3c9f3859d6277846f6b8498db4e17819/res/layout-land/summary_peek_layout.xml"
+    },
+    {
+        "merged": "/Users/apple/curve/kidault_driver/node_modules/react-native-mapbox-navigation/android/build/intermediates/res/merged/release/layout-land/instruction_layout.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/3c9f3859d6277846f6b8498db4e17819/res/layout-land/instruction_layout.xml"
+    },
+    {
+        "merged": "/Users/apple/curve/kidault_driver/node_modules/react-native-mapbox-navigation/android/build/intermediates/res/merged/release/layout-land/feedback_viewholder_layout.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/3c9f3859d6277846f6b8498db4e17819/res/layout-land/feedback_viewholder_layout.xml"
+    },
+    {
+        "merged": "/Users/apple/curve/kidault_driver/node_modules/react-native-mapbox-navigation/android/build/intermediates/res/merged/release/layout-land/sub_instruction_layout.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/3c9f3859d6277846f6b8498db4e17819/res/layout-land/sub_instruction_layout.xml"
+    },
+    {
+        "merged": "/Users/apple/curve/kidault_driver/node_modules/react-native-mapbox-navigation/android/build/intermediates/res/merged/release/layout-land/instruction_view_layout.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/3c9f3859d6277846f6b8498db4e17819/res/layout-land/instruction_view_layout.xml"
+    },
+    {
+        "merged": "/Users/apple/curve/kidault_driver/node_modules/react-native-mapbox-navigation/android/build/intermediates/res/merged/release/layout-land/summary_content_layout.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/3c9f3859d6277846f6b8498db4e17819/res/layout-land/summary_content_layout.xml"
+    },
+    {
+        "merged": "/Users/apple/curve/kidault_driver/node_modules/react-native-mapbox-navigation/android/build/intermediates/res/merged/release/layout-land/turn_lane_layout.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/3c9f3859d6277846f6b8498db4e17819/res/layout-land/turn_lane_layout.xml"
+    },
+    {
+        "merged": "/Users/apple/curve/kidault_driver/node_modules/react-native-mapbox-navigation/android/build/intermediates/res/merged/release/layout-land/instruction_content_layout.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/3c9f3859d6277846f6b8498db4e17819/res/layout-land/instruction_content_layout.xml"
+    },
+    {
+        "merged": "/Users/apple/curve/kidault_driver/node_modules/react-native-mapbox-navigation/android/build/intermediates/res/merged/release/layout-land/instruction_viewholder_layout.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/3c9f3859d6277846f6b8498db4e17819/res/layout-land/instruction_viewholder_layout.xml"
+    },
+    {
+        "merged": "/Users/apple/curve/kidault_driver/node_modules/react-native-mapbox-navigation/android/build/intermediates/res/merged/release/layout-land/navigation_view_layout.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/3c9f3859d6277846f6b8498db4e17819/res/layout-land/navigation_view_layout.xml"
+    }
+]
