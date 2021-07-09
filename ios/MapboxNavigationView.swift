@@ -5,7 +5,6 @@ import MapboxNavigation
 
 
 class MapboxNavigationView: UIView, NavigationViewControllerDelegate {
-  var voiceController: CustomVoiceController?
   
   //var options: NavigationRouteOptions!
   @objc var origin: NSArray = [] {
@@ -48,12 +47,6 @@ class MapboxNavigationView: UIView, NavigationViewControllerDelegate {
 
   @objc var shouldSimulateRoute: Bool = false
   
-  @objc var isMuted: Bool = false {
-    didSet {
-      guard voiceController != nil else { return }
-      voiceController?.isMuted = isMuted
-    }
-  }
   
   @objc var onProgressChange: RCTDirectEventBlock?
   
@@ -145,14 +138,15 @@ class MapboxNavigationView: UIView, NavigationViewControllerDelegate {
         guard let route = response.routes?.first, let strongSelf = self else {
           return
         }
-        let navigationService = MapboxNavigationService(route: route, routeOptions: options, simulating: .onPoorGPS)
-        let navigationOptions = NavigationOptions(navigationService: navigationService)
-        let navigationViewController = NavigationViewController(for: route, routeOptions: options, navigationOptions: navigationOptions)
+            let navigationService = MapboxNavigationService(route: route, routeIndex: 0, routeOptions: options, simulating: .onPoorGPS)
+            let navigationOptions = NavigationOptions(navigationService: navigationService)
+            let navigationViewController = NavigationViewController(for: route, routeIndex: 0, routeOptions: options, navigationOptions: navigationOptions)
         navigationViewController.delegate = self
         DispatchQueue.main.async {
             if let controller = UIApplication.shared.keyWindow?.rootViewController {
                 controller.addChild(navigationViewController)
-                navigationViewController.view.frame = CGRect(x: 0, y: controller.view.frame.height*0.25, width: controller.view.frame.width, height: controller.view.frame.height-(controller.view.frame.height*0.25))
+                navigationViewController.view.frame = CGRect(x: 0, y: 0, width: controller.view.frame.width, height: controller.view.frame.height)
+                //navigationViewController.view.frame = CGRect(x: 0, y: controller.view.frame.height*0.25, width: controller.view.frame.width, height: controller.view.frame.height-(controller.view.frame.height*0.25))
                 controller.view.addSubview(navigationViewController.view)
                 navigationViewController.didMove(toParent: controller)
 //                controller.navigationController?.pushViewController(navigationViewController, animated: true)
@@ -189,16 +183,6 @@ class MapboxNavigationView: UIView, NavigationViewControllerDelegate {
         DispatchQueue.main.async {
             onProgress(["longitude": location.coordinate.longitude, "latitude": location.coordinate.latitude])
         }
-    }
-  }
-}
-
-class CustomVoiceController: MapboxVoiceController {
-  var isMuted = false
-  
-  override func didPassSpokenInstructionPoint(notification: NSNotification) {
-    if isMuted == false {
-      super.didPassSpokenInstructionPoint(notification: notification)
     }
   }
 }
