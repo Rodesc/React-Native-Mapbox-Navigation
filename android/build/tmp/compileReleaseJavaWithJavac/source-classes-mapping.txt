@@ -1,0 +1,2 @@
+com/reactlibrary/BuildConfig.java
+ com.reactlibrary.BuildConfig

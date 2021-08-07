@@ -1,0 +1,610 @@
+[
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_btn_radio_material_anim.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_btn_radio_material_anim.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/ic_menu_arrow_down_black_24dp.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/drawable/ic_menu_arrow_down_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_looks_incorrect_small.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_looks_incorrect_small.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_exit_arrow_left.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_exit_arrow_left.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_map_marker_light.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_map_marker_light.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/design_fab_background.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_route_preview.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_route_preview.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_route_quality_pressed.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_route_quality_pressed.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_confusing_audio_pressed.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_confusing_audio_pressed.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_confusing_audio_normal.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_confusing_audio_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/tooltip_frame_dark.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_looks_incorrect.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_looks_incorrect.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_user_icon_shadow.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/8ab0baa0b25e0dacb6343dc220549c6c/jetified-mapbox-android-sdk-9.6.1/res/drawable/mapbox_user_icon_shadow.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_map_marker_dark.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_map_marker_dark.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_overall_positive_pressed.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_overall_positive_pressed.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_recenter.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_recenter.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/test_custom_background.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/drawable/test_custom_background.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_drawable_progress_bar.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_drawable_progress_bar.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_overall_negative.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_overall_negative.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/ic_mtrl_chip_checked_black.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/drawable/ic_mtrl_chip_checked_black.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/navigation_empty_icon.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_lane_uturn.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_lane_uturn.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_route_quality_normal.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_route_quality_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_lane_straight_right_none.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_lane_straight_right_none.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_illegal_route_pressed.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_illegal_route_pressed.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/ic_edit_black_24dp.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/drawable/ic_edit_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_sound_off.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_sound_off.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_positioning_issue_normal.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_positioning_issue_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_bg_feedback_bottom_sheet_button_gray.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_bg_feedback_bottom_sheet_button_gray.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/ic_mtrl_chip_checked_circle.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/drawable/ic_mtrl_chip_checked_circle.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/btn_radio_off_mtrl.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/btn_radio_off_mtrl.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_bg_wayname_text.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_bg_wayname_text.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_route_preview_dark.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_route_preview_dark.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_illegal_route_normal.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_illegal_route_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_illegal_route.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_illegal_route.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_sound_on.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_sound_on.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/tooltip_frame_light.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/tooltip_frame_light.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/1a3234669c33f9f4072a7bfc84af0390/core-1.2.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_lane_slight_right.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_lane_slight_right.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mtrl_popupmenu_background_dark.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/drawable/mtrl_popupmenu_background_dark.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_roundabout_generic_driving_side_right.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/beea3608c02046b91da1de90b4cd25fc/jetified-utils-1.5.0/res/drawable/mapbox_roundabout_generic_driving_side_right.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/btn_radio_off_to_on_mtrl_animation.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/btn_radio_off_to_on_mtrl_animation.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_bg_feedback_issue_list.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_bg_feedback_issue_list.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_road_closure_normal.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_road_closure_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/ic_keyboard_arrow_left_black_24dp.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/drawable/ic_keyboard_arrow_left_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_circle_black.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_circle_black.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_user_puck.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_user_puck.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_btn_check_material_anim.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_btn_check_material_anim.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_rounded_corner.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/8ab0baa0b25e0dacb6343dc220549c6c/jetified-mapbox-android-sdk-9.6.1/res/drawable/mapbox_rounded_corner.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_positioning_issue.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_positioning_issue.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mtrl_tabs_default_indicator.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/drawable/mtrl_tabs_default_indicator.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_roundabout_generic_driving_side_left.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/beea3608c02046b91da1de90b4cd25fc/jetified-utils-1.5.0/res/drawable/mapbox_roundabout_generic_driving_side_left.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_route_destination.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_route_destination.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_overall_negative_normal.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_overall_negative_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/1a3234669c33f9f4072a7bfc84af0390/core-1.2.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/1a3234669c33f9f4072a7bfc84af0390/core-1.2.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_lane_right.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_lane_right.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/ic_menu_arrow_up_black_24dp.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/drawable/ic_menu_arrow_up_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_lane_right_only.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_lane_right_only.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_illegal_route_small.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_illegal_route_small.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mtrl_dropdown_arrow.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/drawable/mtrl_dropdown_arrow.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_route_quality.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_route_quality.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_route_quality_small.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_route_quality_small.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_road_closure_small.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_road_closure_small.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_road_closure_pressed.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_road_closure_pressed.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_drawable_feedback_subtype_scrollbar_thumb.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_drawable_feedback_subtype_scrollbar_thumb.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_arrow_head.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_arrow_head.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mtrl_dialog_background.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/drawable/mtrl_dialog_background.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_navigation.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/142bfdcde63b3ec2a0db0d74102dac5a/jetified-notification-1.5.0/res/drawable/mapbox_ic_navigation.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_overall_positive.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_overall_positive.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_bg_feedback_comment_edit_text.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_bg_feedback_comment_edit_text.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_vector_test.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/baebfc24ee3e9d675a4614c1f27f118a/jetified-appcompat-resources-1.1.0/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_bg_feedback_bottom_sheet_button_blue.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_bg_feedback_bottom_sheet_button_blue.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_positioning_issue_small.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_positioning_issue_small.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_route_origin.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_route_origin.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/ic_keyboard_arrow_right_black_24dp.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/drawable/ic_keyboard_arrow_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/btn_checkbox_unchecked_mtrl.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/btn_checkbox_unchecked_mtrl.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mtrl_ic_cancel.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/drawable/mtrl_ic_cancel.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/ic_mtrl_chip_close_circle.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/drawable/ic_mtrl_chip_close_circle.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_bg_feedback_report_issue_button_layout.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_bg_feedback_report_issue_button_layout.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mtrl_ic_arrow_drop_down.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/drawable/mtrl_ic_arrow_drop_down.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_marker.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_marker.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mtrl_ic_arrow_drop_up.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/drawable/mtrl_ic_arrow_drop_up.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_positioning_issue_pressed.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_positioning_issue_pressed.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mtrl_popupmenu_background.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/drawable/mtrl_popupmenu_background.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/ic_clear_black_24dp.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/drawable/ic_clear_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_exit_arrow_right.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_exit_arrow_right.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_overall_positive_normal.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_overall_positive_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_user_puck_uncertain_location.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_user_puck_uncertain_location.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_looks_incorrect_normal.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_looks_incorrect_normal.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mtrl_ic_error.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/drawable/mtrl_ic_error.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_cancel.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_cancel.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_mylocation_bg_shape.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/8ab0baa0b25e0dacb6343dc220549c6c/jetified-mapbox-android-sdk-9.6.1/res/drawable/mapbox_mylocation_bg_shape.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_btn_check_material.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_close.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/142bfdcde63b3ec2a0db0d74102dac5a/jetified-notification-1.5.0/res/drawable/mapbox_ic_close.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_road_closure.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_road_closure.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_lane_straight_only.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_lane_straight_only.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/design_snackbar_background.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/btn_radio_on_to_off_mtrl_animation.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/btn_radio_on_to_off_mtrl_animation.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_confusing_audio.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_confusing_audio.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_arrow_head_casing.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_arrow_head_casing.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_drawable_feedback_progress_bar.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_drawable_feedback_progress_bar.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/1a3234669c33f9f4072a7bfc84af0390/core-1.2.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/btn_radio_on_mtrl.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/btn_radio_on_mtrl.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/redbox_top_border_background.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f48ad73390f9d41c4966ce25bccc3bb7/jetified-react-native-0.64.2/res/drawable/redbox_top_border_background.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/btn_checkbox_checked_mtrl.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/btn_checkbox_checked_mtrl.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_lane_straight.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_lane_straight.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_confusing_audio_small.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_confusing_audio_small.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_bg_summary_top_shadow.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_bg_summary_top_shadow.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/ic_mtrl_checked_circle.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/drawable/ic_mtrl_checked_circle.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_bg_rounded_corners.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_bg_rounded_corners.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/ic_calendar_black_24dp.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/drawable/ic_calendar_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_popup_window_transparent.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/8ab0baa0b25e0dacb6343dc220549c6c/jetified-mapbox-android-sdk-9.6.1/res/drawable/mapbox_popup_window_transparent.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_circle.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/142bfdcde63b3ec2a0db0d74102dac5a/jetified-notification-1.5.0/res/drawable/mapbox_ic_circle.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_looks_incorrect_pressed.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_looks_incorrect_pressed.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_bg_instruction_view_sub_banner.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_bg_instruction_view_sub_banner.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_bg_sound_chip.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_bg_sound_chip.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_bg_guidance_view_rounded.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_bg_guidance_view_rounded.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_info_bg_selector.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/8ab0baa0b25e0dacb6343dc220549c6c/jetified-mapbox-android-sdk-9.6.1/res/drawable/mapbox_info_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/mapbox_ic_feedback_overall_negative_pressed.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/drawable/mapbox_ic_feedback_overall_negative_pressed.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/d14dbad7340cad958a2e361a440b498d/appcompat-1.1.0/res/drawable/abc_ratingbar_material.xml"
+    }
+]

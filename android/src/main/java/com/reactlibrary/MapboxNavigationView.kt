@@ -26,6 +26,16 @@ import com.mapbox.navigation.ui.map.NavigationMapboxMap
 
 class MapboxNavigationView(private val context: ThemedReactContext) : NavigationView(context.baseContext), NavigationListener, OnNavigationReadyCallback {
     private var origin: Point? = null
+    private var waypoints: Point? = null
+    private var waypointsOne: Point? = null
+    private var waypointsTwo: Point? = null
+    private var waypointsThree: Point? = null
+    private var waypointsFour: Point? = null
+    private var waypointsFive: Point? = null
+    private var waypointsSix: Point? = null
+    private var waypointsSeven: Point? = null
+    private var waypointsEight: Point? = null
+    private var waypointsNine: Point? = null
     private var destination: Point? = null
     private var shouldSimulateRoute = false
     private var showsEndOfRouteFeedback = false
@@ -62,6 +72,7 @@ class MapboxNavigationView(private val context: ThemedReactContext) : Navigation
     override fun onNavigationReady(isRunning: Boolean) {
         try {
             val accessToken = Mapbox.getAccessToken()
+            var listbhai = mutableListOf<Point?>()
             if (accessToken == null) {
                 sendErrorToReact("Mapbox access token is not set")
                 return
@@ -70,8 +81,40 @@ class MapboxNavigationView(private val context: ThemedReactContext) : Navigation
             if (origin == null || destination == null) {
                 sendErrorToReact("origin and destination are required")
                 return
+            }else{
+                listbhai.add(origin)
+                listbhai.add(destination)
             }
-
+            if (waypointsOne != null){
+                listbhai.add(waypointsOne)
+            }
+            if (waypoints != null){
+                listbhai.add(waypoints)
+            }
+            if (waypointsNine != null){
+                listbhai.add(waypointsNine)
+            }
+            if (waypointsEight != null){
+                listbhai.add(waypointsEight)
+            }
+            if (waypointsSeven != null){
+                listbhai.add(waypointsSeven)
+            }
+            if (waypointsSix != null){
+                listbhai.add(waypointsSix)
+            }
+            if (waypointsFive != null){
+                listbhai.add(waypointsFive)
+            }
+            if (waypointsFour != null){
+                listbhai.add(waypointsFour)
+            }
+            if (waypointsThree != null){
+                listbhai.add(waypointsThree)
+            }
+            if (waypointsTwo != null){
+                listbhai.add(waypointsTwo)
+            }
             if (::navigationMapboxMap.isInitialized) {
                 return
             }
@@ -94,7 +137,7 @@ class MapboxNavigationView(private val context: ThemedReactContext) : Navigation
             this.mapboxNavigation.requestRoutes(RouteOptions.builder()
                     .applyDefaultParams()
                     .accessToken(accessToken)
-                    .coordinates(mutableListOf(origin, destination))
+                    .coordinates(listbhai)
                     .profile(RouteUrl.PROFILE_DRIVING)
                     .steps(true)
                     .voiceInstructions(true)
@@ -192,8 +235,8 @@ class MapboxNavigationView(private val context: ThemedReactContext) : Navigation
     }
 
     override fun onDestroy() {
-        //this.stopNavigation()
-        //this.mapboxNavigation?.onDestroy()
+        this.stopNavigation()
+        this.mapboxNavigation?.onDestroy()
         super.onDestroy()
     }
 
@@ -205,6 +248,39 @@ class MapboxNavigationView(private val context: ThemedReactContext) : Navigation
     fun setOrigin(origin: Point?) {
         this.origin = origin
     }
+
+    fun setWaypoints(waypoint: Point?) {
+        this.waypoints = waypoint
+    }
+
+    fun setWaypointsOne(waypoint: Point?) {
+        this.waypointsOne = waypoint
+    }
+    fun setWaypointsTwo(waypoint: Point?) {
+        this.waypointsTwo = waypoint
+    }
+    fun setWaypointsThree(waypoint: Point?) {
+        this.waypointsThree = waypoint
+    }
+    fun setWaypointsFour(waypoint: Point?) {
+        this.waypointsFour = waypoint
+    }
+    fun setWaypointsFive(waypoint: Point?) {
+        this.waypointsFive = waypoint
+    }
+    fun setWaypointsSix(waypoint: Point?) {
+        this.waypointsSix = waypoint
+    }
+    fun setWaypointsSeven(waypoint: Point?) {
+        this.waypointsSeven = waypoint
+    }
+    fun setWaypointsEight(waypoint: Point?) {
+        this.waypointsEight = waypoint
+    }
+    fun setWaypointsNine(waypoint: Point?) {
+        this.waypointsNine = waypoint
+    }
+
 
     fun setDestination(destination: Point?) {
         this.destination = destination

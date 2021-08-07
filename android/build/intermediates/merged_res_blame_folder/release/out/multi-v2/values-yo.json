@@ -1,0 +1,154 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/values-yo/values-yo.xml",
+            "map": [
+                {
+                    "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/beea3608c02046b91da1de90b4cd25fc/jetified-utils-1.5.0/res/values-yo/values-yo.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,103,157,206",
+                        "endColumns": "47,53,48,48",
+                        "endOffsets": "98,152,201,250"
+                    },
+                    "to": {
+                        "startLines": "12,14,15,16",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "561,655,709,758",
+                        "endColumns": "47,53,48,48",
+                        "endOffsets": "604,704,753,802"
+                    }
+                },
+                {
+                    "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/3f023f6489376b8f4aa96ca72afc8543/jetified-base-1.5.0/res/values-yo/values-yo.xml",
+                    "from": {
+                        "startLines": "2,5,6",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,155,201",
+                        "endLines": "4,5,6",
+                        "endColumns": "14,45,47",
+                        "endOffsets": "150,196,244"
+                    },
+                    "to": {
+                        "startLines": "2,13,17",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,609,807",
+                        "endLines": "4,13,17",
+                        "endColumns": "14,45,47",
+                        "endOffsets": "150,650,850"
+                    }
+                },
+                {
+                    "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/values-yo/values-yo.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,121,168,225,286,344",
+                        "endColumns": "65,46,56,60,57,50",
+                        "endOffsets": "116,163,220,281,339,390"
+                    },
+                    "to": {
+                        "startLines": "7,8,9,10,11,18",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "272,338,385,442,503,855",
+                        "endColumns": "65,46,56,60,57,50",
+                        "endOffsets": "333,380,437,498,556,901"
+                    }
+                },
+                {
+                    "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/142bfdcde63b3ec2a0db0d74102dac5a/jetified-notification-1.5.0/res/values-yo/values-yo.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,119",
+                        "endColumns": "63,52",
+                        "endOffsets": "114,167"
+                    },
+                    "to": {
+                        "startLines": "5,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "155,219",
+                        "endColumns": "63,52",
+                        "endOffsets": "214,267"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-yo/values-yo.xml",
+            "map": [
+                {
+                    "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/beea3608c02046b91da1de90b4cd25fc/jetified-utils-1.5.0/res/values-yo/values-yo.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,103,157,206",
+                        "endColumns": "47,53,48,48",
+                        "endOffsets": "98,152,201,250"
+                    },
+                    "to": {
+                        "startLines": "12,14,15,16",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "561,655,709,758",
+                        "endColumns": "47,53,48,48",
+                        "endOffsets": "604,704,753,802"
+                    }
+                },
+                {
+                    "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/3f023f6489376b8f4aa96ca72afc8543/jetified-base-1.5.0/res/values-yo/values-yo.xml",
+                    "from": {
+                        "startLines": "2,5,6",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,155,201",
+                        "endLines": "4,5,6",
+                        "endColumns": "14,45,47",
+                        "endOffsets": "150,196,244"
+                    },
+                    "to": {
+                        "startLines": "2,13,17",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,609,807",
+                        "endLines": "4,13,17",
+                        "endColumns": "14,45,47",
+                        "endOffsets": "150,650,850"
+                    }
+                },
+                {
+                    "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/f96a9396a60a003bd367641d3098c79a/jetified-ui-1.5.0/res/values-yo/values-yo.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,121,168,225,286,344",
+                        "endColumns": "65,46,56,60,57,50",
+                        "endOffsets": "116,163,220,281,339,390"
+                    },
+                    "to": {
+                        "startLines": "7,8,9,10,11,18",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "272,338,385,442,503,855",
+                        "endColumns": "65,46,56,60,57,50",
+                        "endOffsets": "333,380,437,498,556,901"
+                    }
+                },
+                {
+                    "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/142bfdcde63b3ec2a0db0d74102dac5a/jetified-notification-1.5.0/res/values-yo/values-yo.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,119",
+                        "endColumns": "63,52",
+                        "endOffsets": "114,167"
+                    },
+                    "to": {
+                        "startLines": "5,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "155,219",
+                        "endColumns": "63,52",
+                        "endOffsets": "214,267"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/anim-v21/mtrl_bottom_sheet_slide_in.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/anim-v21/mtrl_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/anim-v21/mtrl_bottom_sheet_slide_out.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/anim-v21/mtrl_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/747f53e70e3372703b3570ac3dfbfb03/material-1.1.0/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/apple/raghu/jauntze_driver/node_modules/rn-mapbox-navigation/android/build/intermediates/res/merged/release/anim-v21/fragment_fast_out_extra_slow_in.xml",
+        "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/e1c67ad88b0b51ef56fa0bd51ab82be3/fragment-1.2.0/res/anim-v21/fragment_fast_out_extra_slow_in.xml"
+    }
+]

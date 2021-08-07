@@ -57,6 +57,87 @@ class MapboxNavigationManager(var mCallerContext: ReactApplicationContext) : Sim
         view.setOrigin(Point.fromLngLat(sources.getDouble(0), sources.getDouble(1)))
     }
 
+    @ReactProp(name = "waypoints")
+    fun setWaypoints(view: MapboxNavigationView, sources: ReadableArray?) {
+        if (sources == null) {
+            view.setWaypoints(null)
+            return
+        }
+        view.setWaypoints(Point.fromLngLat(sources.getDouble(0), sources.getDouble(1)))
+    }
+    @ReactProp(name = "waypointsOne")
+    fun setWaypointsOne(view: MapboxNavigationView, sources: ReadableArray?) {
+        if (sources == null) {
+            view.setWaypointsOne(null)
+            return
+        }
+        view.setWaypointsOne(Point.fromLngLat(sources.getDouble(0), sources.getDouble(1)))
+    }
+    @ReactProp(name = "waypointsTwo")
+    fun setWaypointsTwo(view: MapboxNavigationView, sources: ReadableArray?) {
+        if (sources == null) {
+            view.setWaypointsTwo(null)
+            return
+        }
+        view.setWaypointsTwo(Point.fromLngLat(sources.getDouble(0), sources.getDouble(1)))
+    }
+    @ReactProp(name = "waypointsThree")
+    fun setWaypointsThree(view: MapboxNavigationView, sources: ReadableArray?) {
+        if (sources == null) {
+            view.setWaypointsThree(null)
+            return
+        }
+        view.setWaypointsThree(Point.fromLngLat(sources.getDouble(0), sources.getDouble(1)))
+    }
+    @ReactProp(name = "waypointsFour")
+    fun setWaypointsFour(view: MapboxNavigationView, sources: ReadableArray?) {
+        if (sources == null) {
+            view.setWaypointsFour(null)
+            return
+        }
+        view.setWaypointsFour(Point.fromLngLat(sources.getDouble(0), sources.getDouble(1)))
+    }
+    @ReactProp(name = "waypointsFive")
+    fun setWaypointsFive(view: MapboxNavigationView, sources: ReadableArray?) {
+        if (sources == null) {
+            view.setWaypointsFive(null)
+            return
+        }
+        view.setWaypointsFive(Point.fromLngLat(sources.getDouble(0), sources.getDouble(1)))
+    }
+    @ReactProp(name = "waypointsSix")
+    fun setWaypointsSix(view: MapboxNavigationView, sources: ReadableArray?) {
+        if (sources == null) {
+            view.setWaypointsSix(null)
+            return
+        }
+        view.setWaypointsSix(Point.fromLngLat(sources.getDouble(0), sources.getDouble(1)))
+    }
+    @ReactProp(name = "waypointsSeven")
+    fun setWaypointsSeven(view: MapboxNavigationView, sources: ReadableArray?) {
+        if (sources == null) {
+            view.setWaypointsSeven(null)
+            return
+        }
+        view.setWaypointsSeven(Point.fromLngLat(sources.getDouble(0), sources.getDouble(1)))
+    }
+    @ReactProp(name = "waypointsEight")
+    fun setWaypointsEight(view: MapboxNavigationView, sources: ReadableArray?) {
+        if (sources == null) {
+            view.setWaypointsEight(null)
+            return
+        }
+        view.setWaypointsEight(Point.fromLngLat(sources.getDouble(0), sources.getDouble(1)))
+    }
+    @ReactProp(name = "waypointsNine")
+    fun setWaypointsNine(view: MapboxNavigationView, sources: ReadableArray?) {
+        if (sources == null) {
+            view.setWaypointsNine(null)
+            return
+        }
+        view.setWaypointsNine(Point.fromLngLat(sources.getDouble(0), sources.getDouble(1)))
+    }
+
     @ReactProp(name = "destination")
     fun setDestination(view: MapboxNavigationView, sources: ReadableArray?) {
         if (sources == null) {
