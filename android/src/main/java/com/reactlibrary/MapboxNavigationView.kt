@@ -4,6 +4,7 @@ import android.location.Location
 import com.facebook.react.bridge.Arguments
 import com.facebook.react.uimanager.ThemedReactContext
 import com.facebook.react.uimanager.events.RCTEventEmitter
+import com.facebook.react.bridge.ReadableArray
 import com.mapbox.api.directions.v5.models.DirectionsRoute
 import com.mapbox.api.directions.v5.models.RouteOptions
 import com.mapbox.geojson.Point
@@ -26,16 +27,7 @@ import com.mapbox.navigation.ui.map.NavigationMapboxMap
 
 class MapboxNavigationView(private val context: ThemedReactContext) : NavigationView(context.baseContext), NavigationListener, OnNavigationReadyCallback {
     private var origin: Point? = null
-    private var waypoints: Point? = null
-    private var waypointsOne: Point? = null
-    private var waypointsTwo: Point? = null
-    private var waypointsThree: Point? = null
-    private var waypointsFour: Point? = null
-    private var waypointsFive: Point? = null
-    private var waypointsSix: Point? = null
-    private var waypointsSeven: Point? = null
-    private var waypointsEight: Point? = null
-    private var waypointsNine: Point? = null
+    private var waypoints= mutableListOf<Point?>()
     private var destination: Point? = null
     private var shouldSimulateRoute = false
     private var showsEndOfRouteFeedback = false
@@ -85,36 +77,13 @@ class MapboxNavigationView(private val context: ThemedReactContext) : Navigation
                 listbhai.add(origin)
                 listbhai.add(destination)
             }
-            if (waypointsOne != null){
-                listbhai.add(waypointsOne)
-            }
             if (waypoints != null){
-                listbhai.add(waypoints)
+                listbhai = waypoints
+            }else{
+                sendErrorToReact("waypoints are required")
+                return
             }
-            if (waypointsNine != null){
-                listbhai.add(waypointsNine)
-            }
-            if (waypointsEight != null){
-                listbhai.add(waypointsEight)
-            }
-            if (waypointsSeven != null){
-                listbhai.add(waypointsSeven)
-            }
-            if (waypointsSix != null){
-                listbhai.add(waypointsSix)
-            }
-            if (waypointsFive != null){
-                listbhai.add(waypointsFive)
-            }
-            if (waypointsFour != null){
-                listbhai.add(waypointsFour)
-            }
-            if (waypointsThree != null){
-                listbhai.add(waypointsThree)
-            }
-            if (waypointsTwo != null){
-                listbhai.add(waypointsTwo)
-            }
+
             if (::navigationMapboxMap.isInitialized) {
                 return
             }
@@ -249,36 +218,8 @@ class MapboxNavigationView(private val context: ThemedReactContext) : Navigation
         this.origin = origin
     }
 
-    fun setWaypoints(waypoint: Point?) {
+    fun setWaypoints(waypoint: MutableList<Point?>) {
         this.waypoints = waypoint
-    }
-
-    fun setWaypointsOne(waypoint: Point?) {
-        this.waypointsOne = waypoint
-    }
-    fun setWaypointsTwo(waypoint: Point?) {
-        this.waypointsTwo = waypoint
-    }
-    fun setWaypointsThree(waypoint: Point?) {
-        this.waypointsThree = waypoint
-    }
-    fun setWaypointsFour(waypoint: Point?) {
-        this.waypointsFour = waypoint
-    }
-    fun setWaypointsFive(waypoint: Point?) {
-        this.waypointsFive = waypoint
-    }
-    fun setWaypointsSix(waypoint: Point?) {
-        this.waypointsSix = waypoint
-    }
-    fun setWaypointsSeven(waypoint: Point?) {
-        this.waypointsSeven = waypoint
-    }
-    fun setWaypointsEight(waypoint: Point?) {
-        this.waypointsEight = waypoint
-    }
-    fun setWaypointsNine(waypoint: Point?) {
-        this.waypointsNine = waypoint
     }
 
 
