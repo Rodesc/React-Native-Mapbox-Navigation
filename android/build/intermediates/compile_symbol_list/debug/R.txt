@@ -137,6 +137,11 @@ int attr autoSizeMinTextSize 0x0
 int attr autoSizePresetSizes 0x0
 int attr autoSizeStepGranularity 0x0
 int attr autoSizeTextType 0x0
+int attr autofillInlineSuggestionChip 0x0
+int attr autofillInlineSuggestionEndIconStyle 0x0
+int attr autofillInlineSuggestionStartIconStyle 0x0
+int attr autofillInlineSuggestionSubtitle 0x0
+int attr autofillInlineSuggestionTitle 0x0
 int attr background 0x0
 int attr backgroundColor 0x0
 int attr backgroundImage 0x0
@@ -438,6 +443,7 @@ int attr instructionViewPrimaryTextColor 0x0
 int attr instructionViewSecondaryBackgroundColor 0x0
 int attr instructionViewSecondaryTextColor 0x0
 int attr instructionViewSoundButtonStyle 0x0
+int attr isAutofillInlineSuggestionTheme 0x0
 int attr isLightTheme 0x0
 int attr isMaterialTheme 0x0
 int attr itemBackground 0x0
@@ -811,9 +817,6 @@ int attr snackbarStyle 0x0
 int attr soundButtonPrimaryColor 0x0
 int attr soundButtonSecondaryColor 0x0
 int attr spanCount 0x0
-int attr speedLimitBackgroundColor 0x0
-int attr speedLimitMutcdBorderColor 0x0
-int attr speedLimitViennaBorderColor 0x0
 int attr spinBars 0x0
 int attr spinnerDropDownItemStyle 0x0
 int attr spinnerStyle 0x0
@@ -1143,22 +1146,10 @@ int color mapbox_navigation_view_color_progress_background_dark 0x0
 int color mapbox_navigation_view_color_progress_dark 0x0
 int color mapbox_navigation_view_color_secondary 0x0
 int color mapbox_navigation_view_color_secondary_dark 0x0
-int color mapbox_navigation_view_color_speed_limit_background 0x0
-int color mapbox_navigation_view_color_speed_limit_background_dark 0x0
-int color mapbox_navigation_view_color_speed_limit_mutcd_border 0x0
-int color mapbox_navigation_view_color_speed_limit_mutcd_border_dark 0x0
-int color mapbox_navigation_view_color_speed_limit_text 0x0
-int color mapbox_navigation_view_color_speed_limit_text_dark 0x0
-int color mapbox_navigation_view_color_speed_limit_vienna_border 0x0
-int color mapbox_navigation_view_color_speed_limit_vienna_border_dark 0x0
 int color mapbox_recenter_button_primary 0x0
 int color mapbox_recenter_button_secondary 0x0
 int color mapbox_sound_button_primary 0x0
 int color mapbox_sound_button_secondary 0x0
-int color mapbox_speed_limit_text_color 0x0
-int color mapbox_speed_limit_view_background 0x0
-int color mapbox_speed_limit_view_mutcd_border 0x0
-int color mapbox_speed_limit_view_vienna_border 0x0
 int color mapbox_summary_bottom_sheet_divider 0x0
 int color mapbox_summary_bottom_sheet_primary 0x0
 int color mapbox_summary_bottom_sheet_primary_text 0x0
@@ -1351,6 +1342,7 @@ int dimen abc_text_size_title_material 0x0
 int dimen abc_text_size_title_material_toolbar 0x0
 int dimen action_bar_size 0x0
 int dimen appcompat_dialog_background_inset 0x0
+int dimen autofill_inline_suggestion_icon_size 0x0
 int dimen cardview_compat_inset_shadow 0x0
 int dimen cardview_default_elevation 0x0
 int dimen cardview_default_radius 0x0
@@ -1748,6 +1740,7 @@ int drawable abc_textfield_search_activated_mtrl_alpha 0x0
 int drawable abc_textfield_search_default_mtrl_alpha 0x0
 int drawable abc_textfield_search_material 0x0
 int drawable abc_vector_test 0x0
+int drawable autofill_inline_suggestion_chip_background 0x0
 int drawable avd_hide_password 0x0
 int drawable avd_show_password 0x0
 int drawable btn_checkbox_checked_mtrl 0x0
@@ -1854,7 +1847,6 @@ int drawable mapbox_ic_lane_right_only 0x0
 int drawable mapbox_ic_lane_slight_right 0x0
 int drawable mapbox_ic_lane_straight 0x0
 int drawable mapbox_ic_lane_straight_only 0x0
-int drawable mapbox_ic_lane_straight_right_none 0x0
 int drawable mapbox_ic_lane_uturn 0x0
 int drawable mapbox_ic_map_marker_dark 0x0
 int drawable mapbox_ic_map_marker_light 0x0
@@ -1991,6 +1983,10 @@ int id arrivalOverallExperienceLayout 0x0
 int id arrivalTimeText 0x0
 int id async 0x0
 int id auto 0x0
+int id autofill_inline_suggestion_end_icon 0x0
+int id autofill_inline_suggestion_start_icon 0x0
+int id autofill_inline_suggestion_subtitle 0x0
+int id autofill_inline_suggestion_title 0x0
 int id blocking 0x0
 int id bottom 0x0
 int id buttonLayout 0x0
@@ -2217,10 +2213,6 @@ int id soundFab 0x0
 int id soundLayout 0x0
 int id soundText 0x0
 int id spacer 0x0
-int id speedLimit 0x0
-int id speedLimitText 0x0
-int id speedLimitView 0x0
-int id speedView 0x0
 int id split_action_bar 0x0
 int id spread 0x0
 int id spread_inside 0x0
@@ -2354,6 +2346,7 @@ int layout abc_search_dropdown_item_icons_2line 0x0
 int layout abc_search_view 0x0
 int layout abc_select_dialog_material 0x0
 int layout abc_tooltip 0x0
+int layout autofill_inline_suggestion 0x0
 int layout custom_dialog 0x0
 int layout design_bottom_navigation_item 0x0
 int layout design_bottom_sheet_dialog 0x0
@@ -2372,7 +2365,6 @@ int layout design_text_input_end_icon 0x0
 int layout design_text_input_start_icon 0x0
 int layout dev_loading_view 0x0
 int layout fps_view 0x0
-int layout layout_speed_limit 0x0
 int layout mapbox_alert_view 0x0
 int layout mapbox_attribution_list_item 0x0
 int layout mapbox_button_feedback 0x0
@@ -2514,7 +2506,6 @@ int string abc_toolbar_collapse_description 0x0
 int string alert_description 0x0
 int string appbar_scrolling_view_behavior 0x0
 int string bottom_sheet_behavior 0x0
-int string button_description 0x0
 int string catalyst_change_bundle_location 0x0
 int string catalyst_copy_button 0x0
 int string catalyst_debug 0x0
@@ -2532,6 +2523,7 @@ int string catalyst_hot_reloading_auto_disable 0x0
 int string catalyst_hot_reloading_auto_enable 0x0
 int string catalyst_hot_reloading_stop 0x0
 int string catalyst_inspector 0x0
+int string catalyst_inspector_stop 0x0
 int string catalyst_loading_from_url 0x0
 int string catalyst_open_flipper_error 0x0
 int string catalyst_perf_monitor 0x0
@@ -2670,7 +2662,6 @@ int string mapbox_unit_meters 0x0
 int string mapbox_unit_miles 0x0
 int string mapbox_unit_min 0x0
 int string mapbox_unmuted 0x0
-int string max_speed 0x0
 int string menu_description 0x0
 int string menubar_description 0x0
 int string menuitem_description 0x0
@@ -2717,7 +2708,6 @@ int string progressbar_description 0x0
 int string radiogroup_description 0x0
 int string rn_tab_description 0x0
 int string scrollbar_description 0x0
-int string search_description 0x0
 int string search_menu_title 0x0
 int string spinbutton_description 0x0
 int string state_busy_description 0x0
@@ -2726,6 +2716,7 @@ int string state_expanded_description 0x0
 int string state_mixed_description 0x0
 int string state_off_description 0x0
 int string state_on_description 0x0
+int string state_unselected_description 0x0
 int string status_bar_notification_info_overflow 0x0
 int string summary_description 0x0
 int string tablist_description 0x0
@@ -3204,6 +3195,7 @@ int style Theme_AppCompat_Light_Dialog_Alert 0x0
 int style Theme_AppCompat_Light_Dialog_MinWidth 0x0
 int style Theme_AppCompat_Light_NoActionBar 0x0
 int style Theme_AppCompat_NoActionBar 0x0
+int style Theme_AutofillInlineSuggestion 0x0
 int style Theme_Catalyst 0x0
 int style Theme_Catalyst_LogBox 0x0
 int style Theme_Catalyst_RedBox 0x0
@@ -3340,6 +3332,12 @@ int style Widget_AppCompat_TextView 0x0
 int style Widget_AppCompat_TextView_SpinnerItem 0x0
 int style Widget_AppCompat_Toolbar 0x0
 int style Widget_AppCompat_Toolbar_Button_Navigation 0x0
+int style Widget_Autofill 0x0
+int style Widget_Autofill_InlineSuggestionChip 0x0
+int style Widget_Autofill_InlineSuggestionEndIconStyle 0x0
+int style Widget_Autofill_InlineSuggestionStartIconStyle 0x0
+int style Widget_Autofill_InlineSuggestionSubtitle 0x0
+int style Widget_Autofill_InlineSuggestionTitle 0x0
 int style Widget_Compat_NotificationActionContainer 0x0
 int style Widget_Compat_NotificationActionText 0x0
 int style Widget_Design_AppBarLayout 0x0
@@ -3699,6 +3697,13 @@ int styleable AppCompatTheme_windowFixedWidthMinor 121
 int styleable AppCompatTheme_windowMinWidthMajor 122
 int styleable AppCompatTheme_windowMinWidthMinor 123
 int styleable AppCompatTheme_windowNoTitle 124
+int[] styleable Autofill_InlineSuggestion { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0 }
+int styleable Autofill_InlineSuggestion_autofillInlineSuggestionChip 0
+int styleable Autofill_InlineSuggestion_autofillInlineSuggestionEndIconStyle 1
+int styleable Autofill_InlineSuggestion_autofillInlineSuggestionStartIconStyle 2
+int styleable Autofill_InlineSuggestion_autofillInlineSuggestionSubtitle 3
+int styleable Autofill_InlineSuggestion_autofillInlineSuggestionTitle 4
+int styleable Autofill_InlineSuggestion_isAutofillInlineSuggestionTheme 5
 int[] styleable Badge { 0x0, 0x0, 0x0, 0x0, 0x0 }
 int styleable Badge_backgroundColor 0
 int styleable Badge_badgeGravity 1
@@ -4212,10 +4217,6 @@ int styleable MapboxStyleRecenterButton_recenterButtonSecondaryColor 1
 int[] styleable MapboxStyleSoundButton { 0x0, 0x0 }
 int styleable MapboxStyleSoundButton_soundButtonPrimaryColor 0
 int styleable MapboxStyleSoundButton_soundButtonSecondaryColor 1
-int[] styleable MapboxStyleSpeedLimitView { 0x0, 0x0, 0x0 }
-int styleable MapboxStyleSpeedLimitView_speedLimitBackgroundColor 0
-int styleable MapboxStyleSpeedLimitView_speedLimitMutcdBorderColor 1
-int styleable MapboxStyleSpeedLimitView_speedLimitViennaBorderColor 2
 int[] styleable MapboxStyleSummaryBottomSheet { 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0 }
 int styleable MapboxStyleSummaryBottomSheet_summaryBottomSheetDividerColor 0
 int styleable MapboxStyleSummaryBottomSheet_summaryBottomSheetPrimaryColor 1

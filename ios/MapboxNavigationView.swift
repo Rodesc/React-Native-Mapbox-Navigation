@@ -10,36 +10,14 @@ class MapboxNavigationView: UIView, NavigationViewControllerDelegate {
   @objc var origin: NSArray = [] {
     didSet { startNavigation() }
   }
-  @objc var waypointOne: NSArray = [] {
+
+  @objc var numberoflocations: Int = 0 {
     didSet { startNavigation() }
   }
 
-    @objc var numberoflocations: Int = 0 {
-      didSet { startNavigation() }
-    }
-
-    @objc var waypoints: NSArray = [] {
-      didSet { startNavigation() }
-    }
-
-    @objc var waypointTwo: NSArray = [] {
-      didSet { startNavigation() }
-    }
-    @objc var waypointThree: NSArray = [] {
-      didSet { startNavigation() }
-    }
-    @objc var waypointFour: NSArray = [] {
-      didSet { startNavigation() }
-    }
-    @objc var waypointFive: NSArray = [] {
-      didSet { startNavigation() }
-    }
-    @objc var waypointSix: NSArray = [] {
-      didSet { startNavigation() }
-    }
-    @objc var waypointSeven: NSArray = [] {
-      didSet { startNavigation() }
-    }
+  @objc var waypoints: NSArray = [] {
+    didSet { startNavigation() }
+  }
 
   @objc var destination: NSArray = [] {
     didSet { startNavigation() }
@@ -60,73 +38,24 @@ class MapboxNavigationView: UIView, NavigationViewControllerDelegate {
   
   func startNavigation() {
     guard numberoflocations > 1 && origin.count == 2 && destination.count == 2 else { return }
-     if numberoflocations == 4 && ((origin.count == 2 && destination.count == 2 && waypointOne.count == 2 && waypoints.count == 2) == false) {
-         return
-     }
-     if numberoflocations == 6 && ((origin.count == 2 && destination.count == 2 && waypointOne.count == 2 && waypoints.count == 2 && waypointTwo.count == 2 && waypointThree.count == 2) == false) {
-         return
-     }
-     if numberoflocations == 8 && ((origin.count == 2 && destination.count == 2 && waypointOne.count == 2 && waypoints.count == 2 && waypointTwo.count == 2 && waypointThree.count == 2 && waypointFour.count == 2 && waypointFive.count == 2) == false) {
+     if numberoflocations == 4 && ((waypoints.count >= 2) == false) {
          return
      }
     let originWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: origin[1] as! CLLocationDegrees, longitude: origin[0] as! CLLocationDegrees))
     let destinationWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: destination[1] as! CLLocationDegrees, longitude: destination[0] as! CLLocationDegrees))
-    let origin = Waypoint(coordinate: CLLocationCoordinate2DMake(22.7532848, 75.8936962))
-    let waypointOnes = Waypoint(coordinate: CLLocationCoordinate2DMake(22.7555131, 75.8977850))
-    let destination = Waypoint(coordinate: CLLocationCoordinate2DMake(22.724355, 75.8838944))
-    var options = NavigationRouteOptions(waypoints: [origin, waypointOnes, destination])
-    if waypointSeven.count == 2 && waypointFive.count == 2 && waypointFour.count == 2 && waypointThree.count == 2 && waypointTwo.count == 2 && waypointOne.count == 2 && waypoints.count == 2 {
-        let waypointsWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypoints[1] as! CLLocationDegrees, longitude: waypoints[0] as! CLLocationDegrees))
-        let waypointOneWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypointOne[1] as! CLLocationDegrees, longitude: waypointOne[0] as! CLLocationDegrees))
-        let waypointTwoWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypointTwo[1] as! CLLocationDegrees, longitude: waypointTwo[0] as! CLLocationDegrees))
-        let waypointThreeWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypointThree[1] as! CLLocationDegrees, longitude: waypointThree[0] as! CLLocationDegrees))
-        let waypointFourWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypointFour[1] as! CLLocationDegrees, longitude: waypointFour[0] as! CLLocationDegrees))
-        let waypointFiveWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypointFive[1] as! CLLocationDegrees, longitude: waypointFive[0] as! CLLocationDegrees))
-        let waypointSixWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypointSix[1] as! CLLocationDegrees, longitude: waypointSix[0] as! CLLocationDegrees))
-        let waypointSevenWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypointSeven[1] as! CLLocationDegrees, longitude: waypointSeven[0] as! CLLocationDegrees))
-        options = NavigationRouteOptions(waypoints: [waypointsWaypoint, waypointOneWaypoint, waypointTwoWaypoint, waypointThreeWaypoint, waypointFourWaypoint, waypointFiveWaypoint, waypointSixWaypoint, waypointSevenWaypoint, destinationWaypoint], profileIdentifier: .automobile)
+    let origin = Waypoint(coordinate: CLLocationCoordinate2DMake(23.2599, 77.4126))
+    let destination = Waypoint(coordinate: CLLocationCoordinate2DMake(23.0225, 72.5714))
+    var options = NavigationRouteOptions(waypoints: [origin, destination])
+    var i = 1
+    var waypointsWaypoint = [Waypoint]()
+    for item in waypoints {
+      if i%2 == 0 {
+        waypointsWaypoint.append(Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypoints[i-1] as! CLLocationDegrees, longitude: waypoints[i-2] as! CLLocationDegrees)))
+      }
+      i=i+1
     }
-    else if waypointFive.count == 2 && waypointFour.count == 2 && waypointThree.count == 2 && waypointTwo.count == 2 && waypointOne.count == 2 && waypoints.count == 2 {
-        let waypointsWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypoints[1] as! CLLocationDegrees, longitude: waypoints[0] as! CLLocationDegrees))
-        let waypointOneWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypointOne[1] as! CLLocationDegrees, longitude: waypointOne[0] as! CLLocationDegrees))
-        let waypointTwoWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypointTwo[1] as! CLLocationDegrees, longitude: waypointTwo[0] as! CLLocationDegrees))
-        let waypointThreeWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypointThree[1] as! CLLocationDegrees, longitude: waypointThree[0] as! CLLocationDegrees))
-        let waypointFourWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypointFour[1] as! CLLocationDegrees, longitude: waypointFour[0] as! CLLocationDegrees))
-        let waypointFiveWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypointFive[1] as! CLLocationDegrees, longitude: waypointFive[0] as! CLLocationDegrees))
-        options = NavigationRouteOptions(waypoints: [waypointsWaypoint, waypointOneWaypoint, waypointTwoWaypoint, waypointThreeWaypoint, waypointFourWaypoint, waypointFiveWaypoint, destinationWaypoint], profileIdentifier: .automobile)
-    }
-    else if waypointFour.count == 2 && waypointThree.count == 2 && waypointTwo.count == 2 && waypointOne.count == 2 && waypoints.count == 2 {
-        let waypointsWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypoints[1] as! CLLocationDegrees, longitude: waypoints[0] as! CLLocationDegrees))
-        let waypointOneWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypointOne[1] as! CLLocationDegrees, longitude: waypointOne[0] as! CLLocationDegrees))
-        let waypointTwoWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypointTwo[1] as! CLLocationDegrees, longitude: waypointTwo[0] as! CLLocationDegrees))
-        let waypointThreeWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypointThree[1] as! CLLocationDegrees, longitude: waypointThree[0] as! CLLocationDegrees))
-        let waypointFourWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypointFour[1] as! CLLocationDegrees, longitude: waypointFour[0] as! CLLocationDegrees))
-        options = NavigationRouteOptions(waypoints: [waypointsWaypoint, waypointOneWaypoint, waypointTwoWaypoint, waypointThreeWaypoint, waypointFourWaypoint, destinationWaypoint], profileIdentifier: .automobile)
-    }
-    else if waypointThree.count == 2 && waypointTwo.count == 2 && waypointOne.count == 2 && waypoints.count == 2 {
-        let waypointsWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypoints[1] as! CLLocationDegrees, longitude: waypoints[0] as! CLLocationDegrees))
-        let waypointOneWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypointOne[1] as! CLLocationDegrees, longitude: waypointOne[0] as! CLLocationDegrees))
-        let waypointTwoWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypointTwo[1] as! CLLocationDegrees, longitude: waypointTwo[0] as! CLLocationDegrees))
-        let waypointThreeWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypointThree[1] as! CLLocationDegrees, longitude: waypointThree[0] as! CLLocationDegrees))
-        options = NavigationRouteOptions(waypoints: [originWaypoint, waypointsWaypoint, waypointOneWaypoint, waypointTwoWaypoint, waypointThreeWaypoint, destinationWaypoint], profileIdentifier: .automobile)
-    }
-    else if waypointTwo.count == 2 && waypointOne.count == 2 && waypoints.count == 2 {
-        let waypointsWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypoints[1] as! CLLocationDegrees, longitude: waypoints[0] as! CLLocationDegrees))
-        let waypointOneWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypointOne[1] as! CLLocationDegrees, longitude: waypointOne[0] as! CLLocationDegrees))
-        let waypointTwoWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypointTwo[1] as! CLLocationDegrees, longitude: waypointTwo[0] as! CLLocationDegrees))
-        options = NavigationRouteOptions(waypoints: [originWaypoint, waypointsWaypoint, waypointOneWaypoint, waypointTwoWaypoint, destinationWaypoint])
-    }
-    else if waypointOne.count == 2 && waypoints.count == 2 {
-        let waypointsWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypoints[1] as! CLLocationDegrees, longitude: waypoints[0] as! CLLocationDegrees))
-        let waypointOneWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypointOne[1] as! CLLocationDegrees, longitude: waypointOne[0] as! CLLocationDegrees))
-        options = NavigationRouteOptions(waypoints: [originWaypoint, waypointsWaypoint, waypointOneWaypoint, destinationWaypoint], profileIdentifier: .automobile)
-    }
-    else if waypoints.count == 2 {
-        let waypointsWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypoints[1] as! CLLocationDegrees, longitude: waypoints[0] as! CLLocationDegrees))
-        options = NavigationRouteOptions(waypoints: [originWaypoint, waypointsWaypoint, destinationWaypoint], profileIdentifier: .automobile)
-    }
-    else{
-        options = NavigationRouteOptions(waypoints: [originWaypoint, destinationWaypoint], profileIdentifier: .automobile)
+    if waypointsWaypoint.count >= 2 {
+        options = NavigationRouteOptions(waypoints: waypointsWaypoint, profileIdentifier: .automobile)
     }
     //let options = NavigationRouteOptions(coordinates: [origin, destination])
 
@@ -146,21 +75,10 @@ class MapboxNavigationView: UIView, NavigationViewControllerDelegate {
             if let controller = UIApplication.shared.keyWindow?.rootViewController {
                 controller.addChild(navigationViewController)
                 navigationViewController.view.frame = CGRect(x: 0, y: 0, width: controller.view.frame.width, height: controller.view.frame.height)
-                //navigationViewController.view.frame = CGRect(x: 0, y: controller.view.frame.height*0.25, width: controller.view.frame.width, height: controller.view.frame.height-(controller.view.frame.height*0.25))
                 controller.view.addSubview(navigationViewController.view)
                 navigationViewController.didMove(toParent: controller)
-//                controller.navigationController?.pushViewController(navigationViewController, animated: true)
             }
         }
-//        let view = navigationViewController.view!
-//        //view.bounds = strongSelf.bounds
-//        //view.frame = self!.frame
-//        //view.bounds = self!.bounds
-//        //parentVC.addChild(navigationViewController)
-//        strongSelf.addSubview(view)
-//        view.frame = strongSelf.bounds
-//        //navigationViewController.didMove(toParent: parentVC)
-
 
       }
     }

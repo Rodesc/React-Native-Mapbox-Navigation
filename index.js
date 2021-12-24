@@ -11,6 +11,7 @@ if(Platform.OS == 'android'){
       MapboxNavigation.propTypes = {
         origin: PropTypes.array.isRequired,
         destination: PropTypes.array.isRequired,
+        waypoints: PropTypes.array.isRequired,
         shouldSimulateRoute: PropTypes.bool,
         onLocationChange: PropTypes.func,
         onRouteProgressChange: PropTypes.func,
