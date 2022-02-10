@@ -27,7 +27,12 @@ class MapboxNavigationView: UIView, NavigationViewControllerDelegate {
   
   
   @objc var onProgressChange: RCTDirectEventBlock?
-  
+  @objc var onLocationChange: RCTDirectEventBlock?
+  @objc var onRouteProgressChange: RCTDirectEventBlock?
+  @objc var onError: RCTDirectEventBlock?
+  @objc var onCancelNavigation: RCTDirectEventBlock?
+  @objc var onArrive: RCTDirectEventBlock?
+
   override init(frame: CGRect) {
     super.init(frame: frame)
   }
@@ -95,12 +100,25 @@ class MapboxNavigationView: UIView, NavigationViewControllerDelegate {
                 }
             }
         }
+        if (!canceled) {
+          return;
+        }
+        onCancelNavigation?(["message": ""]);
     }
   func navigationViewController(_ navigationViewController: NavigationViewController, didUpdate progress: RouteProgress, with location: CLLocation, rawLocation: CLLocation) {
-    if let onProgress = self.onProgressChange {
-        DispatchQueue.main.async {
-            onProgress(["longitude": location.coordinate.longitude, "latitude": location.coordinate.latitude])
-        }
-    }
+    onLocationChange?(["longitude": location.coordinate.longitude, "latitude": location.coordinate.latitude])
+    onRouteProgressChange?(["distanceTraveled": progress.distanceTraveled,
+                            "durationRemaining": progress.durationRemaining,
+                            "fractionTraveled": progress.fractionTraveled,
+                            "distanceRemaining": progress.distanceRemaining])
+    // if let onProgress = self.onProgressChange {
+    //     DispatchQueue.main.async {
+    //         onProgress(["longitude": location.coordinate.longitude, "latitude": location.coordinate.latitude])
+    //     }
+    // }
+  }
+  func navigationViewController(_ navigationViewController: NavigationViewController, didArriveAt waypoint: Waypoint) -> Bool {
+    onArrive?(["message": "Arrived"]);
+    return true;
   }
 }

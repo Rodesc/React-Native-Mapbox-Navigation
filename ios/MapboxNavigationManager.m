@@ -9,5 +9,10 @@ RCT_EXPORT_VIEW_PROPERTY(destination, NSArray)
 RCT_EXPORT_VIEW_PROPERTY(waypoints, NSArray)
 RCT_EXPORT_VIEW_PROPERTY(isMuted, BOOL)
 RCT_EXPORT_VIEW_PROPERTY(shouldSimulateRoute, BOOL)
+RCT_EXPORT_VIEW_PROPERTY(onCancelNavigation, RCTDirectEventBlock)
+RCT_EXPORT_VIEW_PROPERTY(onError, RCTDirectEventBlock)
+RCT_EXPORT_VIEW_PROPERTY(onLocationChange, RCTDirectEventBlock)
+RCT_EXPORT_VIEW_PROPERTY(onRouteProgressChange, RCTDirectEventBlock)
+RCT_EXPORT_VIEW_PROPERTY(onArrive, RCTDirectEventBlock)
 
 @end
