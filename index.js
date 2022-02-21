@@ -9,6 +9,7 @@ if(Platform.OS == 'android'){
       };
       
       MapboxNavigation.propTypes = {
+        language: PropTypes.array.isRequired,
         origin: PropTypes.array.isRequired,
         destination: PropTypes.array.isRequired,
         waypoints: PropTypes.array.isRequired,

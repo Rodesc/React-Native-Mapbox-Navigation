@@ -29,6 +29,7 @@ class MapboxNavigationView(private val context: ThemedReactContext) : Navigation
     private var origin: Point? = null
     private var waypoints= mutableListOf<Point?>()
     private var destination: Point? = null
+    private var applanguage: String = "en"
     private var shouldSimulateRoute = false
     private var showsEndOfRouteFeedback = false
     private lateinit var navigationMapboxMap: NavigationMapboxMap
@@ -96,19 +97,21 @@ class MapboxNavigationView(private val context: ThemedReactContext) : Navigation
             this.navigationMapboxMap = this.retrieveNavigationMapboxMap()!!
 
             //this.retrieveMapboxNavigation()?.let { this.mapboxNavigation = it } // this does not work
-
             // fetch the route
             val navigationOptions = MapboxNavigation
                     .defaultNavigationOptionsBuilder(context, accessToken)
                     .isFromNavigationUi(true)
                     .build()
+            sendErrorToReact(navigationOptions.toString())
             this.mapboxNavigation = MapboxNavigationProvider.create(navigationOptions)
             this.mapboxNavigation.requestRoutes(RouteOptions.builder()
                     .applyDefaultParams()
                     .accessToken(accessToken)
                     .coordinates(listbhai)
-                    .profile(RouteUrl.PROFILE_DRIVING)
+                    .profile(RouteUrl.PROFILE_DRIVING_TRAFFIC)
                     .steps(true)
+                    .alternatives(true)
+                    .language(this.applanguage)
                     .voiceInstructions(true)
                     .build(), routesReqCallback)
         } catch (ex: Exception) {
@@ -128,6 +131,8 @@ class MapboxNavigationView(private val context: ThemedReactContext) : Navigation
 
         override fun onRoutesRequestFailure(throwable: Throwable, routeOptions: RouteOptions) {
 
+            sendErrorToReact(throwable.toString())
+            sendErrorToReact(routeOptions.toString())
 
         }
 
@@ -198,6 +203,7 @@ class MapboxNavigationView(private val context: ThemedReactContext) : Navigation
     }
 
     override fun onCancelNavigation() {
+        this.stopNavigation()
         val event = Arguments.createMap()
         event.putString("onCancelNavigation", "Navigation Closed")
         context.getJSModule(RCTEventEmitter::class.java).receiveEvent(id, "onCancelNavigation", event)
@@ -222,6 +228,9 @@ class MapboxNavigationView(private val context: ThemedReactContext) : Navigation
         this.waypoints = waypoint
     }
 
+    fun setLanguage(language: String) {
+        this.applanguage = language
+    }
 
     fun setDestination(destination: Point?) {
         this.destination = destination

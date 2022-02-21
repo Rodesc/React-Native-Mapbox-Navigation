@@ -48,6 +48,15 @@ class MapboxNavigationManager(var mCallerContext: ReactApplicationContext) : Sim
         )
     }
 
+    @ReactProp(name = "language")
+    fun setDestination(view: MapboxNavigationView, sources: String) {
+        if (sources == null) {
+            view.setLanguage("en")
+            return
+        }
+        view.setLanguage(sources)
+    }
+
     @ReactProp(name = "origin")
     fun setOrigin(view: MapboxNavigationView, sources: ReadableArray?) {
         if (sources == null) {
@@ -64,7 +73,7 @@ class MapboxNavigationManager(var mCallerContext: ReactApplicationContext) : Sim
         var i = 1
         for (item in sources.toArrayList()){
             if(i%2 == 0){
-                listbhai.add(Point.fromLngLat(sources.getDouble(i-2), sources.getDouble(i-1)))
+                listbhai.add(Point.fromLngLat(sources.getDouble(i-1), sources.getDouble(i-2)))
             }
             i++
         }
