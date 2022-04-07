@@ -1,8 +1,9 @@
 # React Native Mapbox Navigation
+source taken from https://github.com/homeeondemand/react-native-mapbox-navigation and modified for waypoints addtion
 
 <img alt="React Native Mapbox Navigation" src="./img/ios-nav.png?v=2" width="300" align="right" />
 
-Smart Mapbox turn-by-turn routing based on real-time traffic for React Native. A navigation UI ready to drop into your React Native application. [Sample demo usage shown here for the HOMEE Pro iOS app in the screenshot](https://www.homee.com/) ➡️
+Smart Mapbox turn-by-turn routing based on real-time traffic for React Native. A navigation UI ready to drop into your React Native application. [Sample demo usage shown here for the HOMEE Pro iOS app in the screenshot] ➡️
 
 ## Features
 
@@ -28,7 +29,7 @@ Before installing the SDK, you will need to gather the appropriate credentials. 
 ## Installation
 
 ```
-npm install @homee/react-native-mapbox-navigation
+npm install rn-mapbox-navigation
 ```
 
 Read the iOS specific instructions below before running `pod install`.
@@ -239,7 +240,7 @@ For more information you can read the [docs provided by Mapbox](https://docs.map
 ```jsx
 import * as React from "react";
 import { StyleSheet, View } from "react-native";
-import MapboxNavigation from "@homee/react-native-mapbox-navigation";
+import MapboxNavigation from "rn-mapbox-navigation";
 
 export const SomeComponent = () => {
   return (
