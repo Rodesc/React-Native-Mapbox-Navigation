@@ -12,6 +12,7 @@ import com.mapbox.maps.ResourceOptionsManager
 import com.mapbox.maps.TileStoreUsageMode
 import javax.annotation.Nonnull
 
+
 class MapboxNavigationManager(var mCallerContext: ReactApplicationContext) : SimpleViewManager<MapboxNavigationView>() {
     private var accessToken: String? = null
 
@@ -52,6 +53,15 @@ class MapboxNavigationManager(var mCallerContext: ReactApplicationContext) : Sim
                 "onArrive", MapBuilder.of("registrationName", "onArrive"),
                 "onRouteProgressChange", MapBuilder.of("registrationName", "onRouteProgressChange"),
         )
+    }
+
+    @ReactProp(name = "language")
+    fun setDestination(view: MapboxNavigationView, sources: String) {
+        if (sources == null) {
+            view.setLanguage("en")
+            return
+        }
+        view.setLanguage(sources)
     }
 
     @ReactProp(name = "origin")

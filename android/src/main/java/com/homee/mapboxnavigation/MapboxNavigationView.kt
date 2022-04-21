@@ -172,6 +172,7 @@ class MapboxNavigationView(private val context: ThemedReactContext, private val 
             40.0 * pixelDensity
         )
     }
+    private var applanguage: String = "en"
 
     /**
      * Generates updates for the [MapboxManeuverView] to display the upcoming maneuver instructions
@@ -354,6 +355,7 @@ class MapboxNavigationView(private val context: ThemedReactContext, private val 
         event.putDouble("durationRemaining", routeProgress.durationRemaining.toDouble())
         event.putDouble("fractionTraveled", routeProgress.fractionTraveled.toDouble())
         event.putDouble("distanceRemaining", routeProgress.distanceRemaining.toDouble())
+        event.putDouble("routeRemaining", routeProgress.remainingWaypoints.toDouble())
         context
             .getJSModule(RCTEventEmitter::class.java)
             .receiveEvent(id, "onRouteProgressChange", event)
@@ -632,7 +634,7 @@ class MapboxNavigationView(private val context: ThemedReactContext, private val 
 
     private fun startRoute() {
         // register event listeners
-        sendErrorToReact("Mapbox access token is set")
+        // sendErrorToReact("Mapbox access token is set")
 
         mapboxNavigation.registerRoutesObserver(routesObserver)
         mapboxNavigation.registerArrivalObserver(arrivalObserver)
@@ -675,8 +677,9 @@ class MapboxNavigationView(private val context: ThemedReactContext, private val 
             mapboxNavigation.requestRoutes(
                 RouteOptions.builder()
                     .applyDefaultNavigationOptions()
-                    .applyLanguageAndVoiceUnitOptions(context)
+//                    .applyLanguageAndVoiceUnitOptions(context)
                     .coordinatesList(listbhai)
+                    .language(this.applanguage)
                     .profile(DirectionsCriteria.PROFILE_DRIVING)
                     .steps(true)
                     .build(),
@@ -768,6 +771,10 @@ class MapboxNavigationView(private val context: ThemedReactContext, private val 
 
     fun setOrigin(origin: Point?) {
         this.origin = origin
+    }
+
+    fun setLanguage(language: String) {
+        this.applanguage = language
     }
 
     fun setDestination(destination: Point?) {

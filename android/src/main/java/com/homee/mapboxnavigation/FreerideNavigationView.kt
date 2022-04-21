@@ -12,10 +12,7 @@ import android.widget.FrameLayout
 import android.widget.Toast
 import androidx.core.content.ContextCompat
 import com.facebook.react.bridge.Arguments
-import com.facebook.react.common.MapBuilder
-import com.facebook.react.modules.core.DeviceEventManagerModule
 import com.facebook.react.uimanager.ThemedReactContext
-import com.facebook.react.uimanager.events.RCTEventEmitter
 import com.mapbox.api.directions.v5.models.DirectionsRoute
 import com.mapbox.api.directions.v5.models.RouteOptions
 import com.mapbox.bindgen.Expected
@@ -40,6 +37,8 @@ import com.mapbox.navigation.ui.maps.camera.transition.NavigationCameraTransitio
 import com.mapbox.navigation.ui.maps.location.NavigationLocationProvider
 import com.mapbox.maps.*
 import com.mapbox.maps.plugin.animation.MapAnimationOptions
+import java.util.Locale
+import com.facebook.react.uimanager.events.RCTEventEmitter
 
 class FreerideNavigationView(private val context: ThemedReactContext, private val accessToken: String?) :
     FrameLayout(context.baseContext) {
@@ -122,14 +121,26 @@ class FreerideNavigationView(private val context: ThemedReactContext, private va
             viewportDataSource
         )
 
-        freerideNavigation = MapboxNavigation(
-            NavigationOptions.Builder(context)
-                .accessToken(accessToken)
-                .build()
-        ).apply {
-            startTripSession()
-            registerLocationObserver(locationObserver)
+        freerideNavigation = if (MapboxNavigationProvider.isCreated()) {
+            MapboxNavigationProvider.retrieve()
+        } else {
+            MapboxNavigationProvider.create(
+                NavigationOptions.Builder(context)
+                    .accessToken(accessToken)
+                    .build()
+            )
         }
+        freerideNavigation.startTripSession()
+        freerideNavigation.registerLocationObserver(locationObserver)
+    }
+    override fun onDetachedFromWindow() {
+        super.onDetachedFromWindow()
+        freerideNavigation.unregisterLocationObserver(locationObserver)
+        freerideNavigation.stopTripSession()
+    }
+
+    private fun onDestroy() {
+        MapboxNavigationProvider.destroy()
     }
 
     private fun initStyle() {
@@ -147,12 +158,32 @@ class FreerideNavigationView(private val context: ThemedReactContext, private va
             .getJSModule(RCTEventEmitter::class.java)
             .receiveEvent(id, "onLocationChange", event)
 
+        navigationCamera.requestNavigationCameraToFollowing(
+            stateTransitionOptions = NavigationCameraTransitionOptions.Builder()
+                .maxDuration(0) // instant transition
+                .build()
+        )
+
         binding.mapView.camera.easeTo(
             CameraOptions.Builder()
                 .center(Point.fromLngLat(location.longitude, location.latitude))
-                .zoom(18.0)
+                .zoom(17.0)
+                .padding(EdgeInsets(40.0, 1.0, 1.0, 1.0))
                 .build(),
             mapAnimationOptions
         )
     }
+    fun onDropViewInstance() {
+        this.onDestroy()
+//        sendErrorToReact("Session End")
+    }
+    private fun sendErrorToReact(error: String?) {
+        val event = Arguments.createMap()
+        event.putString("error", error)
+        context
+            .getJSModule(RCTEventEmitter::class.java)
+            .receiveEvent(id, "onError", event)
+    }
+
+
 }

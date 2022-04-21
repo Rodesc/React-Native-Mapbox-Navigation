@@ -40,7 +40,7 @@ class FreerideNavigationManager(var mCallerContext: ReactApplicationContext) : S
     }
 
     override fun onDropViewInstance(view: FreerideNavigationView) {
-       view.onDropViewInstance()
+        view.onDropViewInstance()
         super.onDropViewInstance(view)
     }
 
