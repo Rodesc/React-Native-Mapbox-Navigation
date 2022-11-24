@@ -78,24 +78,20 @@ class MapboxNavigationView: UIView, NavigationViewControllerDelegate {
 
     embedding = true
 
-    let originWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: origin[1] as! CLLocationDegrees, longitude: origin[0] as! CLLocationDegrees))
-    let destinationWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: destination[1] as! CLLocationDegrees, longitude: destination[0] as! CLLocationDegrees))
-    let options = NavigationRouteOptions(waypoints: [originWaypoint, destinationWaypoint], profileIdentifier: .automobile)
-
-    var i = 1
-    var waypointsWaypoint = [Waypoint]()
-    for _ in waypoints {
-      if i%2 == 0 {
-        waypointsWaypoint.append(Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypoints[i-1] as! CLLocationDegrees, longitude: waypoints[i-2] as! CLLocationDegrees)))
-      }
-      i=i+1
-    }
-    if waypointsWaypoint.count >= 2 {
-        //options = NavigationRouteOptions(waypoints: waypointsWaypoint, profileIdentifier: .automobile)
-    }
-
-    // let options = NavigationRouteOptions(waypoints: [originWaypoint, destinationWaypoint])
-    //let options = NavigationRouteOptions(waypoints: [originWaypoint, destinationWaypoint], profileIdentifier: .automobile)
+		let originWaypoint      = Waypoint(coordinate: CLLocationCoordinate2D(latitude: origin[1] as! CLLocationDegrees, longitude: origin[0] as! CLLocationDegrees))
+		let destinationWaypoint = Waypoint(coordinate: CLLocationCoordinate2D(latitude: destination[1] as! CLLocationDegrees, longitude: destination[0] as! CLLocationDegrees))
+	
+		var i = 1
+		var waypointsWaypoint = [originWaypoint]
+		for _ in waypoints {
+			if i%2 == 0 {
+				var wp = Waypoint(coordinate: CLLocationCoordinate2D(latitude: waypoints[i-2] as! CLLocationDegrees, longitude: waypoints[i-1] as! CLLocationDegrees))
+				waypointsWaypoint.append(wp)
+			}
+			i=i+1
+		}
+		waypointsWaypoint.append(destinationWaypoint)
+		let options = NavigationRouteOptions(waypoints: waypointsWaypoint)
 
     Directions.shared.calculate(options) { [weak self] (_, result) in
       guard let strongSelf = self, let parentVC = strongSelf.parentViewController else {
