@@ -124,7 +124,7 @@ Add the following to your ios podfile -
 require_relative '../node_modules/react-native/scripts/react_native_pods'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-platform :ios, '10.0'
+platform :ios, '12.0'
 install! 'cocoapods', :disable_input_output_paths => true
 
 target 'AwesomeProject' do

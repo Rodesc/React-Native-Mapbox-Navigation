@@ -588,6 +588,7 @@ class MapboxNavigationView(private val context: ThemedReactContext, private val 
         val mapboxRouteLineOptions = MapboxRouteLineOptions.Builder(context)
             .withRouteLineBelowLayerId("road-label")
             .build()
+            .withVanishingRouteLineEnabled(true)
         routeLineApi = MapboxRouteLineApi(mapboxRouteLineOptions)
         routeLineView = MapboxRouteLineView(mapboxRouteLineOptions)
 

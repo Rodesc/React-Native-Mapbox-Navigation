@@ -21,9 +21,9 @@ class MapboxNavigationView: UIView, NavigationViewControllerDelegate {
 	var embedded: Bool
 	var embedding: Bool
 	
-		@objc var waypoints: NSArray = [] {
-			didSet { setNeedsLayout() }
-		}
+	@objc var waypoints: NSArray = [] {
+		didSet { setNeedsLayout() }
+	}
 		
 	@objc var origin: NSArray = [] {
 		didSet { setNeedsLayout() }
@@ -35,6 +35,7 @@ class MapboxNavigationView: UIView, NavigationViewControllerDelegate {
 
 	@objc var shouldSimulateRoute: Bool = false
 	@objc var showsEndOfRouteFeedback: Bool = false
+	@objc var routeLineTracksTraversal: Bool = false
 	@objc var hideStatusView: Bool = false
 	@objc var mute: Bool = false
 	
@@ -112,6 +113,8 @@ class MapboxNavigationView: UIView, NavigationViewControllerDelegate {
 					let vc = NavigationViewController(for: response, routeIndex: 0, routeOptions: options, navigationOptions: navigationOptions)
 
 					vc.showsEndOfRouteFeedback = strongSelf.showsEndOfRouteFeedback
+					vc.routeLineTracksTraversal = true
+					
 					StatusView.appearance().isHidden = strongSelf.hideStatusView
 
 					NavigationSettings.shared.voiceMuted = strongSelf.mute;
