@@ -33,13 +33,11 @@ Pod::Spec.new do |s|
   s.name         = "rn-mapbox-navigation"
   s.version      = package["version"]
   s.summary      = package["description"]
-  s.description  = <<-DESC
-                  Smart Mapbox turn-by-turn routing based on real-time traffic for React Native.
-                   DESC
+  s.description  = package["description"]
   s.homepage     = "https://github.com/homeeondemand/react-native-mapbox-navigation"
-  s.license    = { :type => "MIT", :file => "LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
   s.authors      = { "HOMEE" => "support@homee.com" }
-  s.platforms    = { :ios => "11.0" }
+  s.platforms    = { :ios => "12.0" }
   s.source       = { :git => "https://github.com/homeeondemand/react-native-mapbox-navigation.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,swift}"

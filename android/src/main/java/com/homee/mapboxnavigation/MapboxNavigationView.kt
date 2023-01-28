@@ -9,6 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.widget.FrameLayout
 import android.widget.Toast
+import android.graphics.Color
 import androidx.core.content.ContextCompat
 import com.facebook.react.bridge.Arguments
 import com.facebook.react.uimanager.ThemedReactContext
@@ -62,6 +63,7 @@ import com.mapbox.navigation.ui.maps.route.arrow.model.RouteArrowOptions
 import com.mapbox.navigation.ui.maps.route.line.api.MapboxRouteLineApi
 import com.mapbox.navigation.ui.maps.route.line.api.MapboxRouteLineView
 import com.mapbox.navigation.ui.maps.route.line.model.MapboxRouteLineOptions
+import com.mapbox.navigation.ui.maps.route.line.model.RouteLineColorResources
 import com.mapbox.navigation.ui.maps.route.line.model.RouteLine
 import com.mapbox.navigation.ui.tripprogress.api.MapboxTripProgressApi
 import com.mapbox.navigation.ui.tripprogress.model.DistanceRemainingFormatter
@@ -323,6 +325,10 @@ class MapboxNavigationView(private val context: ThemedReactContext, private val 
         if (style != null) {
             val maneuverArrowResult = routeArrowApi.addUpcomingManeuverArrow(routeProgress)
             routeArrowView.renderManeuverUpdate(style, maneuverArrowResult)
+
+            routeLineApi.updateWithRouteProgress(routeProgress) { result ->
+                 routeLineView.renderRouteLineUpdate(style, result)
+            }
         }
 
         // update top banner with maneuver instructions
@@ -587,8 +593,12 @@ class MapboxNavigationView(private val context: ThemedReactContext, private val 
         // and under which layer the route line should be placed on the map layers stack
         val mapboxRouteLineOptions = MapboxRouteLineOptions.Builder(context)
             .withRouteLineBelowLayerId("road-label")
-            .build()
             .withVanishingRouteLineEnabled(true)
+            .styleInactiveRouteLegsIndependently(true)
+            .build()
+        val customColorResources = RouteLineColorResources.Builder()
+            .inActiveRouteLegsColor(Color.parseColor("#55FFCC00"))
+            .build()
         routeLineApi = MapboxRouteLineApi(mapboxRouteLineOptions)
         routeLineView = MapboxRouteLineView(mapboxRouteLineOptions)
 
@@ -678,7 +688,7 @@ class MapboxNavigationView(private val context: ThemedReactContext, private val 
             mapboxNavigation.requestRoutes(
                 RouteOptions.builder()
                     .applyDefaultNavigationOptions()
-//                    .applyLanguageAndVoiceUnitOptions(context)
+                    .applyLanguageAndVoiceUnitOptions(context)
                     .coordinatesList(listbhai)
                     .language(this.applanguage)
                     .profile(DirectionsCriteria.PROFILE_DRIVING)

@@ -35,7 +35,7 @@ class MapboxNavigationView: UIView, NavigationViewControllerDelegate {
 
 	@objc var shouldSimulateRoute: Bool = false
 	@objc var showsEndOfRouteFeedback: Bool = false
-	@objc var routeLineTracksTraversal: Bool = false
+	@objc var routeLineTracksTraversal: Bool = true
 	@objc var hideStatusView: Bool = false
 	@objc var mute: Bool = false
 	
@@ -113,7 +113,7 @@ class MapboxNavigationView: UIView, NavigationViewControllerDelegate {
 					let vc = NavigationViewController(for: response, routeIndex: 0, routeOptions: options, navigationOptions: navigationOptions)
 
 					vc.showsEndOfRouteFeedback = strongSelf.showsEndOfRouteFeedback
-					vc.routeLineTracksTraversal = true
+					vc.routeLineTracksTraversal = strongSelf.routeLineTracksTraversal
 					
 					StatusView.appearance().isHidden = strongSelf.hideStatusView
 
@@ -127,8 +127,6 @@ class MapboxNavigationView: UIView, NavigationViewControllerDelegate {
 					vc.didMove(toParent: parentVC)
 					strongSelf.navViewController = vc
 			}
-			
-			strongSelf.embedding = false
 			strongSelf.embedded = true
 		}
 	}
