@@ -61,6 +61,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/maneuverView" />
 
+    <Button
+        android:id="@+id/next"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:text="next"
+        android:background="@drawable/button_states"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/maneuverView"
+        android:visibility="invisible"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="16dp"/>
+
+
     <com.mapbox.navigation.ui.maps.camera.view.MapboxRouteOverviewButton
         android:id="@+id/routeOverview"
         android:layout_width="wrap_content"

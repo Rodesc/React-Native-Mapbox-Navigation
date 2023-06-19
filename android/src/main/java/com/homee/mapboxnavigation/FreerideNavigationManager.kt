@@ -51,6 +51,7 @@ class FreerideNavigationManager(var mCallerContext: ReactApplicationContext) : S
                 "onCancelNavigation", MapBuilder.of("registrationName", "onCancelNavigation"),
                 "onArrive", MapBuilder.of("registrationName", "onArrive"),
                 "onRouteProgressChange", MapBuilder.of("registrationName", "onRouteProgressChange"),
+                "onSkip", MapBuilder.of("registrationName", "onSkip"),
         )
     }
 
