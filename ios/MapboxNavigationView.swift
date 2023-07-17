@@ -38,14 +38,29 @@ class MapboxNavigationView: UIView, NavigationViewControllerDelegate {
     @objc var onError: RCTDirectEventBlock?
     @objc var onCancelNavigation: RCTDirectEventBlock?
     @objc var onArrive: RCTDirectEventBlock?
+    @objc var onSkip: RCTDirectEventBlock?
+    
+    
+    private lazy var customButton: UIButton = {
+          let button = UIButton()
+          button.backgroundColor = .white // Customize the button appearance
+          button.layer.cornerRadius = 20 // Customize the corner radius to make it a circle
+          button.addTarget(self, action: #selector(customButtonTapped), for: .touchUpInside)
+          return button
+      }()
+    
+    
     override init(frame: CGRect) {
         self.embedded = false
         self.embedding = false
         super.init(frame: frame)
+       
     }
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
+    
     override func layoutSubviews() {
         super.layoutSubviews()
         if navViewController == nil && !embedding && !embedded {
@@ -53,8 +68,46 @@ class MapboxNavigationView: UIView, NavigationViewControllerDelegate {
         } else {
             navViewController?.view.frame = bounds
         }
+        setupCustomButton()
        // setupMapViewDelegate()
     }
+    
+    private func setupCustomButton() {
+        guard let parentViewController = parentViewController else {
+            fatalError("MapboxNavigationView must be added to a parent view controller.")
+        }
+
+        parentViewController.view.addSubview(customButton)
+        customButton.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            customButton.centerYAnchor.constraint(equalTo: parentViewController.view.centerYAnchor),
+            customButton.trailingAnchor.constraint(equalTo: parentViewController.view.trailingAnchor, constant: -16),
+            customButton.widthAnchor.constraint(equalToConstant: 40),
+            customButton.heightAnchor.constraint(equalToConstant: 40)
+        ])
+        // Create and customize the "skip" label
+            let skipLabel = UILabel()
+            skipLabel.text = "Skip"
+            skipLabel.textColor = .black
+            skipLabel.textAlignment = .center
+            skipLabel.translatesAutoresizingMaskIntoConstraints = false
+
+            // Add the "skip" label as a subview to the custom button
+            customButton.addSubview(skipLabel)
+
+            // Position the "skip" label in the center of the circular button
+            NSLayoutConstraint.activate([
+                skipLabel.centerXAnchor.constraint(equalTo: customButton.centerXAnchor),
+                skipLabel.centerYAnchor.constraint(equalTo: customButton.centerYAnchor)
+            ])
+    }
+    
+    @objc private func customButtonTapped() {
+        onSkip?(["message": ""])
+       }
+
+    
+    
     override func removeFromSuperview() {
         super.removeFromSuperview()
         // Cleanup and teardown any existing resources
@@ -98,6 +151,7 @@ class MapboxNavigationView: UIView, NavigationViewControllerDelegate {
                 vc.view.frame = strongSelf.bounds
                 vc.didMove(toParent: parentVC)
                 strongSelf.navViewController = vc
+                
             }
             strongSelf.embedded = true
         }
@@ -178,6 +232,7 @@ lineLayer.lineColor = .constant(.init(identifier.contains("main") ? #colorLitera
 lineLayer.lineWidth = .expression(lineWidthExpression(1.2))
 lineLayer.lineJoin = .constant(.round)
 lineLayer.lineCap = .constant(.round)
+    
  
 return lineLayer
 }
